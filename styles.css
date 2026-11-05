@@ -1,0 +1,95 @@
+/* Colors copied from the app's Soft theme (src/core/theme/palettes.ts). */
+:root {
+  color-scheme: dark;
+  --background: #1b1a2e;
+  --panel: #2e2a4f;
+  --text: #e6e1f0;
+  --heading: #7fc8c4;
+  --link: #e58fb0;
+  --focus: #e8c872;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 1.5rem 1.25rem 3rem;
+  background: var(--background);
+  color: var(--text);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  /* Long URLs must wrap instead of widening the page on a phone. */
+  overflow-wrap: anywhere;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--panel);
+}
+
+header p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: var(--heading);
+  line-height: 1.25;
+}
+
+h1 {
+  margin: 1.5rem 0 1rem;
+  font-size: 1.75rem;
+}
+
+h2 {
+  margin: 2rem 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+p,
+ul {
+  margin: 0 0 1rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: var(--link);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+code {
+  padding: 0.1em 0.3em;
+  border-radius: 0.25em;
+  background: var(--panel);
+  font-size: 0.9em;
+}
