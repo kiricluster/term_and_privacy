@@ -18,7 +18,7 @@ exige una URL pública para la política.
 
 Haz estos cambios en las cuatro páginas (`privacy-*.html` y `terms-*.html`):
 
-1. Sustituye `[CORREO DE CONTACTO]`, `[NOMBRE DEL DESARROLLADOR]`, `[PAÍS]` y `[FECHA]`.
+1. Sustituye `clusterkiri@gmail.com`, `Kiri Cluster`, `Venezuela` y `[FECHA]`.
 2. Comprueba cada nota `VERIFICAR` y borra la nota.
 3. Tras la revisión, borra la frase que dice que el documento es un borrador
    (la primera, bajo el título).
